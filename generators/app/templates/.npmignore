@@ -6,3 +6,8 @@ test
 src
 build
 gulpfile.js
+example
+__tests__
+.editorconfig
+.prettierrc
+.release-it.json
