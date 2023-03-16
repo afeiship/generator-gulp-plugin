@@ -4,11 +4,11 @@
 ## installation
 ```bash
 npm install -g yo
-npm install -g generator-gulp-plugin
+npm install -g @jswork/generator-gulp-plugin
 ```
 
 Then generate your new project:
 
 ```bash
-yo gulp-plugin
+yo @jswork/gulp-plugin
 ```

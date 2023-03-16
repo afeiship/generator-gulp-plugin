@@ -1,5 +1,5 @@
 {
-  "name": "generator-gulp-plugin",
+  "name": "@jswork/generator-gulp-plugin",
   "version": "1.0.0",
   "description": "Yeoman generator for gulp plugin.",
   "homepage": "https://js.work",
