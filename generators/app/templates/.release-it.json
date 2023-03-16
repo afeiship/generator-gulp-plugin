@@ -4,7 +4,6 @@
   },
   "hooks": {
     "after:init": ["npm run test", "t2k"],
-    "after:bump": ["npm run build"],
     "after:release": ["cnpm sync `npm pkg get name`"]
   },
   "github": {

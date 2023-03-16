@@ -6,9 +6,9 @@
   "author": "afeiship",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-banner": "github:afeiship/gulp-banner",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-util": "^3.0.8"
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "build": "gulp"
   }
 }

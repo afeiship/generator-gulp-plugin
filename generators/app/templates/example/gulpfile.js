@@ -1,17 +1,10 @@
-(function() {
-  "use strict";
+'use strict';
 
-  var gulp = require("gulp");
-  var $ = require("gulp-load-plugins")({
-    pattern: ["gulp-*", "gulp.*", "del"]
-  });
+var gulp = require('gulp');
+var plugin = require('..');
 
-  gulp.task("banner", function() {
-    return gulp
-      .src("src/*.js")
-      .pipe($.banner("/* My Banner*/\n"))
-      .pipe(gulp.dest("dist"));
-  });
+gulp.task('demo', function () {
+  return gulp.src('src/*.js').pipe(plugin('/* My demo*/\n')).pipe(gulp.dest('dist'));
+});
 
-  gulp.task("default", gulp.series(["banner"]));
-})();
+gulp.task('default', gulp.series(['demo']));

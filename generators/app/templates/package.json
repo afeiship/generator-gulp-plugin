@@ -4,6 +4,7 @@
   "description": "<%= description %>",
   "homepage": "https://js.work",
   "scripts": {
+    "release": "release-it",
     "test": "mocha __tests__/base.js"
   },
   "main": "dist/index.js",
